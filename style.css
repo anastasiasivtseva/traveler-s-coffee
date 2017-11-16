@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: arial;
+    color: #372f2c
+}
+
+.header {
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #372f2c;
+    height: 45px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    height: 150px
+}
+
+.main {
+    width: 900px;
+    margin: 0 auto
+}
+
+.adress {
+    text-align: center;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts div {
+    width: 280px;
+    margin-right: 20px
+}
+
+.information {
+    width: 800px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 100px
+}
+
+.point-froms {
+    margin: auto;
+    margin-bottom: 100px
+}
+
+.point-froms a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 250px;
+}
+
+.point-froms a:hover {
+    transition: 0.2s;
+    color: orangered
+}
+
+.images img {
+    margin-right: 40px;
+    height: 150px;
+    margin-bottom: 100px
+}
+
+.learnmore a{
+    text-decoration: none;
+    color: inherit
+}
+
+.box {
+    width: 900px;
+    margin: auto;
+    padding-top: 50px;
+    padding-right: 500px;
+    box-sizing: border-box;
+}
+
+.box p {
+    color: grey;
+}
+
+.mail {
+    color: inherit;
+}
+
+.mail:hover {
+    transition: 0.2s;
+    color: orangered;
+}
+
+.footer {
+    margin-top: 100px;
+    background: #372f2c;
+    height: 45px;
+    color: white;
+    padding-top: 20px
+}
+
+.footer p {
+    width: 1000px;
+    margin: auto;
+}
+
+.footer a {
+    color: inherit;
+}
+
+.footer a:hover {
+    transition: 0.2s;
+    color: orangered;
+}
