@@ -3,7 +3,7 @@ body {
     padding: 0;
     border: 0;
     font-family: arial;
-    color: #372f2c
+    color: #372f2c;
 }
 
 .header {
@@ -70,9 +70,19 @@ body {
     margin-bottom: 100px
 }
 
-.learnmore a{
+.learnmore {
+    width: 900px;
+    margin: auto;
+}
+
+.learnmore a {
     text-decoration: none;
     color: inherit
+}
+
+.learnmore a:hover {
+    color: orangered;
+    transition: 0.2s;
 }
 
 .box {
@@ -101,7 +111,7 @@ body {
     background: #372f2c;
     height: 45px;
     color: white;
-    padding-top: 20px
+    padding-top: 20px;
 }
 
 .footer p {
@@ -116,4 +126,24 @@ body {
 .footer a:hover {
     transition: 0.2s;
     color: orangered;
+}
+
+.n {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    padding-left: 570px
+}
+
+.i {
+    margin-bottom: 30px;
+    height: 25px;
+    width: 200px;
+}
+
+button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 8px 13px;
+    border-radius: 3px
 }
